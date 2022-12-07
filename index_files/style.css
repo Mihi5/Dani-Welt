@@ -1,0 +1,60 @@
+:root {
+  --navy: #344D67;
+  --teal: #2A7960;
+  --green: #ADE792;
+  --yellow: #FCFBEF;
+  --braun: #513715;
+}
+
+
+.blue {
+  color: var(--navy);
+}
+
+.green {
+  color: var(--teal);
+}
+
+.braun {
+  color: var(--braun);
+}
+
+.my-bg {
+  background-color: #EEEEEE;
+  border-bottom: 2px solid #ADADAD;
+}
+
+.b-example-divider {
+  height: 5rem;
+  background-color: var(--green);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.my-margin {
+  margin-bottom: 20px;
+}
+
+.my-class > * {
+  flex: 1;
+}
+
+.my-bg-light {
+  --bs-bg-opacity: 1;
+  background-color: var(--yellow) !important;
+}
+
+.my-button {
+  --bs-btn-hover-bg: white !important;
+  --bs-btn-active-bg: #E4EBF1 !important;
+}
+
+.my-right {
+  margin-left: auto;
+  margin-right: 5%;
+}
+
+body {
+  padding-top: 40px;
+}
